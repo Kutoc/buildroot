@@ -1,0 +1,11 @@
+config BR2_PACKAGE_FAIFA
+	bool "faifa"
+	select BR2_PACKAGE_LIBPCAP
+	help
+	  Faifa can configure any Intellon-based Power Line Communication device
+	  using Intellon INT5000 and INT6000 series chips (6000 and 6300 chips). It
+	  supports all Intellon-specific management and control frames as well as
+	  standard management frames.
+
+	  https://dev.open-plc.org
+
